@@ -1,0 +1,42 @@
+sub Y' x	div pow x INT+ 2 INT+ 2
+sub Y' pow x INT+ 2	div pow x INT+ 3 INT+ 3
+sub Y' pow x INT+ 3	div pow x INT+ 4 INT+ 4
+sub Y' pow x INT+ 4	div pow x INT+ 5 INT+ 5
+sub Y' pow x INT+ 5	div pow x INT+ 6 INT+ 6
+sub Y' pow x INT+ 6	div pow x INT+ 7 INT+ 7
+sub Y' pow x INT+ 7	div pow x INT+ 8 INT+ 8
+sub Y' pow x INT+ 8	div pow x INT+ 9 INT+ 9
+sub Y' cos x	sin x
+sub Y' sin x	mul INT- 1 cos x
+sub Y' add pow x INT+ 2 cos x	add div pow x INT+ 3 INT+ 3 sin x
+sub Y' ln x	add mul INT- 1 x mul x ln x
+sub Y' ln pow x INT+ 3	add mul INT- 3 x mul x ln pow x INT+ 3
+sub Y' div INT+ 1 x	ln x
+sub Y' sub pow x INT+ 2 cos x	sub div pow x INT+ 3 INT+ 3 sin x
+sub Y' sub pow x INT+ 3 cos x	sub div pow x INT+ 4 INT+ 4 sin x
+sub Y' sub pow x INT+ 4 cos x	sub div pow x INT+ 5 INT+ 5 sin x
+sub Y' sub pow x INT+ 5 cos x	sub div pow x INT+ 6 INT+ 6 sin x
+sub Y' sub pow x INT+ 6 cos x	sub div pow x INT+ 7 INT+ 7 sin x
+sub Y' sub pow x INT+ 7 cos x	sub div pow x INT+ 8 INT+ 8 sin x
+sub Y' sub pow x INT+ 8 cos x	sub div pow x INT+ 9 INT+ 9 sin x
+sub Y' add pow x INT+ 2 cos x	add div pow x INT+ 3 INT+ 3 sin x
+sub Y' add pow x INT+ 3 cos x	add div pow x INT+ 4 INT+ 4 sin x
+sub Y' add pow x INT+ 4 cos x	add div pow x INT+ 5 INT+ 5 sin x
+sub Y' add pow x INT+ 5 cos x	add div pow x INT+ 6 INT+ 6 sin x
+sub Y' add pow x INT+ 6 cos x	add div pow x INT+ 7 INT+ 7 sin x
+sub Y' add pow x INT+ 7 cos x	add div pow x INT+ 8 INT+ 8 sin x
+sub Y' add pow x INT+ 8 cos x	add div pow x INT+ 9 INT+ 9 sin x
+sub Y' sub pow x INT+ 2 div INT+ 1 x	sub div pow x INT+ 3 INT+ 3 ln x
+sub Y' sub pow x INT+ 3 div INT+ 1 x	sub div pow x INT+ 4 INT+ 4 ln x
+sub Y' sub pow x INT+ 4 div INT+ 1 x	sub div pow x INT+ 5 INT+ 5 ln x
+sub Y' sub pow x INT+ 5 div INT+ 1 x	sub div pow x INT+ 6 INT+ 6 ln x
+sub Y' sub pow x INT+ 6 div INT+ 1 x	sub div pow x INT+ 7 INT+ 7 ln x
+sub Y' sub pow x INT+ 7 div INT+ 1 x	sub div pow x INT+ 8 INT+ 8 ln x
+sub Y' sub pow x INT+ 8 div INT+ 1 x	sub div pow x INT+ 9 INT+ 9 ln x
+sub Y' add pow x INT+ 2 div INT+ 1 x	add div pow x INT+ 3 INT+ 3 ln x
+sub Y' add pow x INT+ 3 div INT+ 1 x	add div pow x INT+ 4 INT+ 4 ln x
+sub Y' add pow x INT+ 4 div INT+ 1 x	add div pow x INT+ 5 INT+ 5 ln x
+sub Y' add pow x INT+ 5 div INT+ 1 x	add div pow x INT+ 6 INT+ 6 ln x
+sub Y' add pow x INT+ 6 div INT+ 1 x	add div pow x INT+ 7 INT+ 7 ln x
+sub Y' add pow x INT+ 7 div INT+ 1 x	add div pow x INT+ 8 INT+ 8 ln x
+sub Y' add pow x INT+ 8 div INT+ 1 x	add div pow x INT+ 9 INT+ 9 ln x
